@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Calcolatrice</title>
+		<meta charset="UTF-8">
+        <script src="operation.js"></script>
+        <style>
+            @import url("index.css");
+        </style>
+    </head>
+    <body background="calcolatrice.jpg">
+        
+        <table>
+            <tr>
+                <td>
+                    <div class="content">
+                        <input type="text" id="expression" class="expression" name="display" readonly="readonly">
+                    </div>
+                    <div class="buttons">
+                        <button class="button" onclick="add('1')">1</button>
+                        <button class="button" onclick="add('2')">2</button>
+                        <button class="button" onclick="add('3')">3</button>
+                        <button class="button" onclick="add('+')">+</button><br><br>
+                        <button class="button" onclick="add('4')">4</button>
+                        <button class="button" onclick="add('5')">5</button>
+                        <button class="button" onclick="add('6')">6</button>
+                        <button class="button" onclick="add('-')">-</button><br><br>
+                        <button class="button" onclick="add('7')">7</button>
+                        <button class="button" onclick="add('8')">8</button>
+                        <button class="button" onclick="add('9')">9</button>
+                        <button class="button" onclick="add('*')">*</button><br><br>
+                        <button class="button" onclick="add('(')">(</button>
+                        <button class="button" onclick="add('0')">0</button>
+                        <button class="button" onclick="add(')')">)</button>
+                        <button class="button" onclick="add('/')">/</button><br><br>
+                        <button class="button" onclick="remove()">CE</button>
+                        <button class="button" onclick="removeLast()">DEL</button>
+                        <button class="button" onclick="add('.')">.</button>
+                        <button class="button" onclick="add('Ans')">Ans</button><br><br>
+                    </div>
+
+                    <div class="result">
+                        <button class="bresult" onclick="equals()">=</button>
+                    </div>
+                </td>
+                <td>
+                    <p class="text">
+                        Benvenuto utente.<br><br>
+                        Usufruisci della nostra calcolatrice per i tuoi calcoli<br><br>
+
+                        Attenzione: non hai bisogno di cancellare il risultato. 
+                        Verrà eliminato automaticamente quando inserisci nuove cifre<br><br>
+						
+						Puoi scaricare il codice al seguente link <br>
+						<a href="https://www.mediafire.com/file/dpx51g16cjef6zr/Calcolatrice.rar/file">LINK</a>
+                    </p>
+                </td>
+            </tr>
+        </table>>
+        
+    </body>
+</html>
