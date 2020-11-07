@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <head>
+        <title>Christina Perri</title>
+        <script src="../js/music.js"></script>
+        <style>
+            @import url("../css/index.css");
+        </style>
+    </head>
+    <body class="background-music">
+        <header>
+            <nav class="menu">
+                <button class="button" onclick="location.href='../index.html'">Home</button>
+                <button class="button" onclick="location.href='informazioni.html'">Informazioni</button>
+                <button class="button" onclick="location.href='musica.html'">Musica</button>
+                <button class="button" onclick="location.href='galleria.html'">Galleria</button>
+                <button class="button" onclick="location.href='contatti.html'">Contatti</button>
+            </nav>
+        </header>
+        <br><br><br><br><br><br><br>
+        <section class="music">
+            <label>Seleziona una canzone</label>
+            <br><br><br>
+            <select name="song" id="song">
+                <option value="Distance">01. Distance</option>
+                <option value="I_Believe">02. I Believe</option>
+                <option value="Human">03. Human</option>
+                <option value="Be_My_Forever">04. Be My Forever</option>
+                <option value="Sea_Of_Lovers">05. Sea Of Lovers</option>
+                <option value="I_Believe">06. I Believe</option>
+                <option value="Burning_Gold">07. Burning Gold</option>
+                <option value="Tragedy">08. Tragedy</option>
+                <option value="Backwards">09. Backwards</option>
+                <option value="A_Thousand_Years">10. A thounsad years</option>
+                <option value="The_Words">11. The words</option>
+                <option value="Jar_Of_Hearts">12. Jar of hearts</option>
+                <option value="Arms">13. Arms</option>
+                <option value="Black_And_Blue">14. Black + Blue</option>
+                <option value="Something_About_December">15. Something about december</option>
+            </select>
+            <br><br><br>
+            <audio id="musicplay" controls><source id="musicsource"></audio>
+            <br><br><br>
+            <input type="submit" value="Clicca per riprodurre" class="submit" onclick="play()">
+            <br><br><br>
+            <input type="submit" value="Clicca per terminare la riproduzione" class="submit" onclick="pause()">
+        </section>
+        <footer>
+            <table>
+                <tr>
+                    <td>
+                        <p>
+                            Fonti esterne: 
+                            <a href="https://www.google.it/search?hl=it&tbm=isch&sxsrf=ALeKk01g3G_GdUT9-zgib_Rb63_kDE6NOg%3A1604589819132&source=hp&biw=1440&bih=757&ei=-xikX7_HBZGmUpOLh_gK&q=christina+perri&oq=christina+perri&gs_lcp=CgNpbWcQAzIECCMQJzIECCMQJzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyBAgAEB46BQgAELEDOggIABCxAxCDAVDeE1jdImD1JGgAcAB4AIABhwGIAaILkgEDOS42mAEAoAEBqgELZ3dzLXdpei1pbWc&sclient=img&ved=0ahUKEwj_sLXx2uvsAhURkxQKHZPFAa8Q4dUDCAc&uact=5" target="_blank">
+                                Google Immagini
+                            </a>, 
+                            <a href="https://en.wikipedia.org/wiki/Christina_Perri" target="_blank">
+                                Wikipedia
+                            </a>, 
+                            <a href="https://www.youtube.com/results?search_query=christina+perri" target="_blank">
+                                Youtube
+                            </a>
+                        </p>
+                    </td>
+                    <td>
+                        <p><a href="copyright.html">Copyright</a></p>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+    </body>
+</html>
